@@ -1,0 +1,12 @@
+.linkblock {
+    display: flex;
+    gap: 15px;
+}
+
+.link {
+    color: black;
+}
+
+.active {
+    color: rgb(148, 109, 185);
+}
