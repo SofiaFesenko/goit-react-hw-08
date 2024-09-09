@@ -54,6 +54,10 @@ const contactsSlice = createSlice({
         state.loading = false,
         state.error = action.payload
     })
+
+    .addCase(apiLogout.fulfilled, state => {
+        state.contacts.items = []
+    })
 })
 
 export default contactsSlice.reducer

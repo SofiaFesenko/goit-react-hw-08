@@ -1,6 +1,11 @@
-function Layout() {
+import AppBar from "./AppBar"
+
+function Layout({children}) {
     return (
-      <></>
+      <>
+        <AppBar/>
+        {children}
+      </>
     )
 }
 
